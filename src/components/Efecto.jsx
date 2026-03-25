@@ -39,3 +39,23 @@ export const SinEfecto = () => {
     );
 };
 */
+
+/*
+import { useState } from "react";
+
+export const SinEfecto = () => {
+    const [contador, setContador] = useState(0);
+
+    console.log("El componente se renderizó");
+
+    return (
+        <div>
+            <h2>Sin useEffect</h2>
+            <p>Contador: {contador}</p>
+            <button onClick={() => setContador(contador + 1)}>
+                Cambiar estado
+            </button>
+        </div>
+    );
+};
+*/
